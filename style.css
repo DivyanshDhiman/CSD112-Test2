@@ -21,3 +21,22 @@ border-color: black;}
 margin-top: 250px;}
 
 .about span{color: red;}
+
+.row{margin-top: 100px;}
+
+.row col-md-4{width: 200px;
+height: 200px;}
+
+.row a{text-decoration: none;}
+
+.row a:hover{color:rgb(255, 0, 0, 0.5);}
+
+.about ul{list-style-type: none;}
+
+.about ul li{ list-style-type: none;
+    float: left;
+    padding: 10px;
+    background-color: black;
+padding: 20px;}
+
+.about ul li a:hover{color: blue;}
