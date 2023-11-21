@@ -1,14 +1,6 @@
-body{background-color: black;
-background-image: url(mypfp.png);
+body{background-color: rgb(207, 210, 128);
 background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
-background-size: cover;}
+width: 100%;
+float:right}
 
-.navbar{align-items: center;}
-
-.navbar ul{ align-items: center;}
-
-.navbar li{align-items: center;}
-
-.navbar ul li a{}
+.mynav{background-color: black;}
