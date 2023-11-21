@@ -7,6 +7,7 @@
       <link href="css/bootstrap.min.css" rel="stylesheet" >
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
       <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="icon2.jpg" type="image/x-icon">
    </head>
    <body>
       <script src="js/bootstrap.bundle.min.js" ></script>
@@ -19,26 +20,26 @@
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                <li class="nav-item">
-                 <a style="color: black;" class="nav-link active" aria-current="page" href="#">Home</a>
+                 <a style="color: black;" class="nav-link active" aria-current="page" href="#home">Home</a>
                </li>
                <li class="nav-item">
-                 <a style="color: black;" class="nav-link" href="#">About</a>
+                 <a style="color: black;" class="nav-link" href="#about">About</a>
                </li>
                <li class="nav-item">
                   <a style="color: black;" class="nav-link active" aria-current="page" href="#">Hobbies</a>
                 </li>
                 <li class="nav-item">
-                  <a style="color: black;" class="nav-link active" aria-current="page" href="#">Contact</a>
+                  <a style="color: black;" class="nav-link active" aria-current="page" href="#contact">Contact</a>
                 </li>
                <li class="nav-item dropdown">
                  <a style="color:black;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                    Dropdown
                  </a>
                  <ul class="dropdown-menu">
-                   <li><a class="dropdown-item" href="#">Action</a></li>
-                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                   <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                   <li><a class="dropdown-item" href="#map">Map</a></li>
                    <li><hr class="dropdown-divider"></li>
-                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                   <li><a class="dropdown-item" href="#form">For Queries</a></li>
                  </ul>
                </li>
              
@@ -51,7 +52,7 @@
          </div>
        </nav>
        <div class="container">
-       <div class="home">
+       <div id="home" class="home">
          
             Hi,
             <h1>My name is <span>Divyansh Dhiman</span></h1>
@@ -66,21 +67,24 @@
    </div>
 
 <div class="container">
-   <div class="about">
+   <div id="about" class="about">
       <h1><span>About</span> Me</h1>
                            <pre>              <span>Name:</span> Divyansh Dhiman
               <span>Age:</span> 19
               <span>Occupation:</span> Student 
               <span>College:</span> Sault College 
               <span>Locoation:</span> Toronto
+              <span>Father's Name:</span> Ashwani Kumar
+              <span>Mother's Name:</span> Neelam
 
                       </pre>
+      
 
-      <h2>My <span>village</span></h2>
+      <h2 id="map">My <span>village</span></h2>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13787.41823179876!2d77.0177538161271!3d30.241223795519222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e52b6b66e56dd%3A0x11112f2751cbfbf0!2sSohana%2C%20Haryana%2C%20India!5e0!3m2!1sen!2sca!4v1700598638487!5m2!1sen!2sca" width="900px" height="450" style="border:solid; border-color: red; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       
       <div class="row">
-         <h1>My <span>Skills</span></h1>
+         <h1 id="skills">My <span>Skills</span></h1>
          <ul>
         <li> <a href="https://www.w3schools.com/html/default.asp" target="_blank"><h3><span>HTML</span>  <img src="icon.jpg" alt="" width="25px" height="25px"></h3></a></li>
          <li><a href="https://www.w3schools.com/css/default.asp" target="_blank"><h3><span>CSS</span> <img src="3.jpg" alt="" width="25px" height="25px"></h3></a></li>
@@ -90,8 +94,53 @@
       </ul>
          
       </div>
+
+      <div class="hobbies">
+         <h1>MY Hobbies</h1>
+         <h3><span>Reading</span> Books</h3>
+         <p>I love Reading books. Atomic Habits is my favorite book.</p>
+         <iframe src="https://jamesclear.com/atomic-habits" frameborder="0" width="800px" height="800px"></iframe>
+         <h3>Watching <span>Youtube</span></h3>
+         <p>I watch Youtube a lot. SaimanSays is my favorite youtuber.</p>
+         <iframe width="800" height="800" src="https://www.youtube.com/embed/5A6bSM5KkKM?si=yRkNn260iHv222SG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
    </div>
 </div>
+
+
+
+<div id="contact" class="Contact">
+   <h1><span>Contact</span> me</h1> 
+   <h3><span>Phone Number:</span> 647-631-8477</h3>
+   <h3><span>Email:</span> dhimandivyansh63@gmail.com</h3>
+   </div>
+   
+   
+   <div id="form" class="forqueries">
+       <h1>For <span>Queries</span></h1>
+   
+       <form>
+           <label for="input">Username</label>
+           <br>
+           <input type="text">
+           <br>
+           <label for="input">Gmail</label>
+           <br>
+           <input type="text">
+           <br>
+           <label for="input">Password</label>
+           <br>
+           <input type="text">
+           <br>
+           <label for="textbox">What's in your mind?</label>
+           <br>
+           <textarea name="" id="" cols="30" rows="10"></textarea>       
+   <button>Submit</button>
+  </form>
+   </div>
+
+
 
       <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
