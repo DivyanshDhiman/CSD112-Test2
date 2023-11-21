@@ -1,0 +1,14 @@
+body{background-color: black;
+background-image: url(mypfp.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+
+.navbar{align-items: center;}
+
+.navbar ul{ align-items: center;}
+
+.navbar li{align-items: center;}
+
+.navbar ul li a{}
