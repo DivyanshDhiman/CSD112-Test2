@@ -1,6 +1,23 @@
-body{background-color: rgb(207, 210, 128);
-background-repeat: no-repeat;
-width: 100%;
-float:right}
+body{background-color: black;}
 
-.mynav{background-color: black;}
+.mynav{background-color: red;}
+
+
+.home{margin-top:250px;
+font-size: larger;
+color: white;}
+
+.home span{ color: red;}
+
+.container{display: flex;}
+
+.image{ margin-top: 150px;
+border: solid;
+border-color: black;}
+
+.image:hover{filter: brightness(0.7);}
+
+.about{color: white;
+margin-top: 250px;}
+
+.about span{color: red;}
